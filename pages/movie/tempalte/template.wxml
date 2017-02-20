@@ -1,0 +1,19 @@
+<template name="movietem">
+    <block wx:for="{{movieArrs}}">
+       
+        <view class="movie" bindtap="detail" id="item.id">
+            <view class="pic">
+                <image      src="http://img7.doubanio.com/img/celebrity/small/1358747052.41.jpg"></image>
+            </view>
+
+            <view class="movie-info">
+                <view class="base-info">
+                    <text>
+                        电影名字：阿甘正传\n导演：罗伯特\n演员演员：汤姆汉克斯／洛冰怀特／加里西尼斯 \n类型：剧情：爱情爱情\n上映年份年份：1994（中国大陆）
+                    </text>
+                </view>
+            </view>
+        </view>
+         <view class="hr"></view>
+    </block>
+</template>

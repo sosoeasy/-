@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/recomMovie/recomMovie",
+    "pages/searchMovie/searchMovie",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "movie",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "white",
+    "selectedColor" : "red",
+    "backgroundColor": "#000",
+    "list": [{
+      "pagePath": "pages/movie/movie",
+      "text": "影院热映",
+      "iconPath": "/pages/assets/img/dy.png",
+      "selectedIconPath": "/pages/assets/img/dy-1.png"
+    }, {
+      "pagePath": "pages/recomMovie/recomMovie",
+      "text": "电影推荐",
+      "iconPath": "/pages/assets/img/search.png",
+      "selectedIconPath": "/pages/assets/img/search-1.png"
+    }, {
+      "pagePath":  "pages/searchMovie/searchMovie",
+      "text": "查询电影",
+      "iconPath": "/pages/assets/img/tj.png",
+      "selectedIconPath": "/pages/assets/img/tj-1.png"
+    }]
+  }
+}

@@ -1,0 +1,17 @@
+<view class="content">
+
+    <view class="search">
+       
+        <input class="input" bindinput="bindKeyInput" placeholder="那年我们17岁" auto-focus/>
+         <button bindtap="search" hover-class="btnClcik">查询</button>
+    </view>
+     <text class="inputShow">你要搜索:{{inputVal}}</text>
+    <!--<view">-->
+         <import src="../movie/tempalte/template.wxml"/>
+         <template is="movietem" data="{{movieArrs}}"/>
+    <!--</view>-->
+</view>
+
+<modal title="温馨提示" confirm-text="知道了" no-cancel="true" hidden="{{modalHidden}}" bindconfirm="hideModal">
+    请输入需要查询的关键词,如:滚石
+</modal>

@@ -1,0 +1,2 @@
+/* pages/recomMovie/recomMovie.wxss */
+@import "../movie/movie.wxss"

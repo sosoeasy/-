@@ -1,0 +1,19 @@
+<view class="content">
+
+    <view class="imageDti">
+        <image src="../assets/img/001.jpg" model="aspectFit"></image>
+    </view>
+
+    <view class="hr"></view>
+    <view class="detail">这是一部极聚幽默色彩的生活小电影，可以感受主人公的悲欢离合感受生活的意义</view>
+
+    <view class="casts">
+        <block wx:for="{{imgUrls}}">
+            <image src="{{item}}" model="aspectFit"></image>
+        </block>
+    </view>
+
+    <view class="detail">
+        <text>演员：卡戴珊</text>
+    </view>
+</view>

@@ -1,0 +1,5 @@
+
+<view class="content">
+    <import src="../movie/tempalte/template.wxml"/>
+    <template is="movietem" data="{{movieArrs}}"/>
+</view>
